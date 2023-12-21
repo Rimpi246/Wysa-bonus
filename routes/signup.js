@@ -1,6 +1,5 @@
 const express = require("express");
 const session = require("express-session");
-const bodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
 const router = express.Router();
 const User = require("../models/user");
